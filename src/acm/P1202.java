@@ -6,7 +6,7 @@ public class P1202 {
 		Scanner scan =new Scanner(System.in);
 		int number;
 		int temp;
-		for(int i=1;i<100;i++){
+		while(scan.hasNext()){
 			number=scan.nextInt();
 			temp=number%10+number%100/10+number/100;
 			if(number%temp==0){
@@ -17,6 +17,7 @@ public class P1202 {
 			}
 			
 		}
+		scan.close();
 	}
 
 }

@@ -1,4 +1,4 @@
-package acm;
+package common_function;
 
 import java.util.Scanner;
 
