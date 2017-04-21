@@ -2,7 +2,7 @@ package acm;
 
 import java.util.Scanner;
 
-public  P1206 {
+public class void main() P1206 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
@@ -10,7 +10,7 @@ public  P1206 {
 		for (int i = 1; i <= a; i++) {
 			int n = scan.nextInt();
 			int sum = 0;
-			 (int j = 1; j <= n; j++) {
+			 for (int j = 1; j <= n; j++) {
 				int test = scan.nextInt();
 				if (Sushu(test) == 1) {
 					sum = sum + test;
